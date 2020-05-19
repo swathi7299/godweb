@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>
+loginadmin
+</title>
+<style>
+body
+{
+margin:0;
+padding:0;
+background:url(mm.jpeg);
+background-size:cover;
+background-position:center;
+font-family:sans-serif;
+}
+.loginbox
+{
+width :320px;
+height:420px;
+background:#000;
+color:#fff;
+top:50%;
+left:25%;
+position:absolute;
+transform:  translate(-50%,-50%);
+box-sizing:border-box;
+padding:70px 30px;
+}
+h1
+{
+padding:5px;
+margin:0;
+text-align:center;
+font-size:22px;
+}
+p
+{
+margin:0;
+padding:0;
+font-weight:bold;
+}
+input
+{
+width:100%;
+margin-bottom:20px;
+}
+input[type="email"],input[type="password"]
+{
+border:none;
+border-bottom:1px solid #fff;
+background:transparent;
+outline: none;
+height:40px;
+color:#fff;
+font-size:16px;
+}
+
+input[type=submit]
+{
+width:100%;
+background:orange;
+cursor:pointer;
+font-size;18px;
+font-weight:bold;
+color:white; 
+padding:10px;
+border-radius:10px;
+}
+input[type=submit]:hover
+{
+ background:yellow;
+}
+</style>
+</head>
+<body>
+<div class="loginbox">
+<h1>Signin Here</h1>
+<br>
+<form action="loginadmin.php" method="post" autocomplete="off">
+<p>Email Id</p>
+<input type="email" name="email" placeholder="Enter Email Id" required>
+<p>Password</p>
+<input type="password"  name="password" placeholder="Enter Password" required>
+<input type="submit" value="LOGIN" > 
+<br>
+<p><font color="green"><a href="changepassword.html">Change Password</a></font></p>
+</form>
+</div>
+</body>
+</html> 

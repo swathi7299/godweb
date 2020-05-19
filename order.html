@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+body
+{
+background:url(images2.jpeg);
+}
+.order
+{
+width:350px;
+margin:auto;
+background:#999999;
+margin-top:150px;
+padding:5px;
+}
+form
+{
+padding:10px;
+font-family:arial;
+border:2px solid white;
+margin:10px;
+}
+input , select
+{
+padding:10px;
+margin:5px;
+border-radius:2px;
+border:none;
+width:95%;
+}
+input[type=submit]
+{
+width:95%;
+background:orange;
+cursor:pointer;
+font-size;18px;
+font-weight:bold;
+color:white;
+border-radius:5px;
+}
+</style>
+</head>
+<body>
+<div class="order">
+<form name="myform" action="orderinsertion.php" method="post" autocomplete="off">
+<input type="text" name="Name" placeholder="Your Name" required>
+<input type="text" name="Door_no" Placeholder="Door No/Flat No" required>
+<input type="text" name="Street_name" placeholder="Street Name" required>
+<input type="text" name="Area" Placeholder="Area"required>
+<input type="text" name="District" placeholder="District" required>
+<input type="text" name="Pincode" placeholder="Pincode" required>
+<input type="text" name="Number" placeholder="Number" required>
+<input type="text" name="Email" placeholder="Email" required>
+<input type="text" name="Days" placeholder="No of Days" required>
+<input type="text" name="Dayd" placeholder="Date on which required" required>
+<input type="text" name="Aadhar_No" placeholder="Aadhar_No" required>
+<input type="Submit" value="ORDER" >
+</form>
+</div>
+</body>
+</html>

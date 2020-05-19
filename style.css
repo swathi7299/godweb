@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+body
+{
+background: powderblue;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+#wrap
+{
+margin:20px auto;
+width: 1350px;
+}
+#header { 
+background:#cd0000;
+height:100px;
+}
+#header h1 
+{
+font-size: 26px;
+font-weight:100;
+letter-spacing: -1px;
+padding: 22px 0 5px 20px;
+}
+#header h1 a 
+{
+color:white;
+font-size:30px;
+text-decoration: none;
+}
+#header h1 a:hover
+ {
+color: #273be2;
+text-decoration: none;
+}
+.image
+{
+width:50%;
+float:left;
+height:100%;
+}
+.description
+{
+width:50%;
+float:right;
+height:100%;
+}
+.image .btn 
+{
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  background-color: #000080;
+  color: white;
+  font-size: 20px;
+  padding: 15px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.image .btn:hover
+{
+  background-color: black;
+}
+.description .btn1 
+{
+  position: absolute;
+  top: 70%;
+  right: 15%;
+  transform: translate(-50%, -50%);
+  background-color: #000080;
+  color: white;
+  font-size: 20px;
+  padding: 15px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.description .btn1:hover
+{
+  background-color: black;
+}
+#menu
+{
+height: 30px;
+line-height: 30px;
+font-size:18px;
+}
+#menu ul
+{
+padding-left: 10px;
+list-style-type: none;
+}
+#menu ul li 
+{
+display: block;
+float: left;
+}
+#menu ul li a
+{
+color: #111;
+padding: 0 10px;
+text-decoration: none;
+font-weight: 600;
+}
+#menu ul li a:hover
+{
+text-decoration: underline;
+}
+#top
+{
+background:#838b8b;
+padding:10px 0;
+text-align:center;
+color:#00ffff;
+font-size:25px;
+height:30px;
+}

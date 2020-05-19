@@ -1,0 +1,191 @@
+<html>
+<head>
+<style>
+body
+{
+background: powderblue;
+}
+  .wrap
+  {   
+    background:#f698db;
+    border-radius: 25px;
+    border: 5px solid black;
+    padding: 20px; 
+    width: 375px;
+    height: 190px;  
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left: 200px;
+    font-size:20px;
+  }* {
+      padding: 0;
+      margin: 0;
+  } 
+
+  body
+  {
+  background: powderblue;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  }
+/*  #wrap
+  {
+  margin:20px auto;
+  width: 1350px;
+  }*/
+  #header { 
+  background:#cd0000;
+  height:100px;
+  }
+  #header h1 
+  {
+  font-size: 26px;
+  font-weight:100;
+  letter-spacing: -1px;
+  padding: 22px 0 5px 20px;
+  }
+  #header h1 a 
+  {
+  color:white;
+  font-size:30px;
+  text-decoration: none;
+  }
+  #header h1 a:hover
+   {
+  color: #273be2;
+  text-decoration: none;
+  }
+  .image
+  {
+  width:50%;
+  float:left;
+  height:100%;
+  }
+  .description
+  {
+  width:50%;
+  float:right;
+  height:100%;
+  }
+  .image .btn 
+  {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: #000080;
+    color: white;
+    font-size: 20px;
+    padding: 15px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .image .btn:hover
+  {
+    background-color: black;
+  }
+  .description .btn1 
+  {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+    background-color: #000080;
+    color: white;
+    font-size: 20px;
+    padding: 15px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .description .btn1:hover
+  {
+    background-color: black;
+  }
+  #menu
+  {
+  height: 30px;
+  line-height: 30px;
+  font-size:18px;
+  }
+  #menu ul
+  {
+  padding-left: 10px;
+  list-style-type: none;
+  }
+  #menu ul li 
+  {
+  display: block;
+  float: left;
+  }
+  #menu ul li a
+  {
+  color: #111;
+  padding: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+  }
+  #menu ul li a:hover
+  {
+  text-decoration: underline;
+  }
+  #top
+  {
+  background:#838b8b;
+  padding:10px 0;
+  text-align:center;
+  color:#00ffff;
+  font-size:25px;
+  height:30px;
+  }
+
+
+  </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1><a><center>EASY DRESS RENTAL</center></a></h1>
+      <h3><center>"Utilizing the national resources effectively"</center></h3>
+  </div>
+  <div id="menu">
+  <ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="instructions.html">Instructions</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <li><a href="loginadmin.html">Admin</a></li>
+  </ul>
+  </div>
+<div><center>
+<div class="Wrap">
+Phone-No:9655995929<br>
+Email Id: chintupintu0708@gmail.com<br>
+Facebook Id: sahashrarental<br>
+Address:  No-3/28 Rasi nagar,
+	Pochampalli,
+	Krishnagiri-635206.
+</div> 
+<br><br>
+<br><br>
+<br><br>
+
+<div class="round">
+<div id="googleMap" style="width:80%;height:450px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(13.067439,80.237617),
+  zoom:8,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsJ-lL6lHrR0wIgmtaw1BoY1s5PDoSbqM&callback=myMap"></script>
+
+</div></center>  
+</body>
+</html>

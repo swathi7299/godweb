@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Get Visitor's Location Using HTML5 Geolocation</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<div id="wrap">
+
+<div id="header">
+    <h1><a><center>EASY DRESS RENTAL</center></a></h1>
+    <h3><center>"Utilizing the national resources effectively"</center></h3>
+</div>
+<div id="menu">
+<ul>
+<li><a href="index
+    .html">Home</a></li>
+<li><a href="instructions.html">Instructions</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+<li><a href="place.html">Know your position</a></li>
+<li><a href="loginadmin.html">Admin</a></li>
+
+</ul>
+</div>
+<br><br>
+<script>
+    function showPosition() {
+        if(navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+                document.getElementById("result").innerHTML = positionInfo;
+            });
+        } else {
+            alert("Sorry, .");
+        }
+    }
+</script>
+</head>
+<body>
+    <div id="result">
+        <!--Position information will be inserted here-->
+    </div><br><br>
+    <button type="button" onclick="showPosition();">Show My Position</button>
+</body>
+</html>                            
